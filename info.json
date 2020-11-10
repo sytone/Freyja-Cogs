@@ -1,7 +1,7 @@
 {
-    "author" : "ArcOnyx",
-    "description" : "A random collection of cogs I have created for Red.",
+    "author" : "Sytone",
+    "description" : "A set of D&D cogs I have created or found and modified for Red.",
     "install_msg" : "Thanks for trying out my cogs. You can find the source and report issues here: https://github.com/arconyx/Athena-Cogs",
-    "name" : "Athena Cogs",
-    "short" : "A random assortment of cogs",
+    "name" : "Freyja Cogs",
+    "short" : "A random assortment of D&D cogs"
 }
