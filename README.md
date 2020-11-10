@@ -16,8 +16,8 @@ These are unfinished, abandoned or otherwise unusable cogs.
 ### General
 I haven't gotten around to applying for cogs.red listing yet so you won't be able to install them through there. Instead you'll want to run these two commands (`[p]` should be replaced with the bot's command prefix):
 1. `[p]load downloader`
-2. `[p]repo add Athena-Cogs https://github.com/arconyx/Athena-Cogs`
-3. `[p]cog install Athena-Cogs <cogname>`
+2. `[p]repo add Freyja-Cogs https://github.com/sytone/Freyja-Cogs`
+3. `[p]cog install Freyja-Cogs <cogname>`
 4. `[p]load <cogname>`
 
 ### ChatterBot
@@ -38,3 +38,12 @@ Your most used command will likely be the search command. I recommend setting up
 2. `[p]alias add dnd kanka search`
 
 Whenever you add a large number of entities to the campaign, you can significantly reduce loading times for the bot by running the refresh command `[p]kanka refresh`
+
+
+## Dev Environment
+
+python -m venv .\redenv
+.\redenv\Scripts\Activate.ps1
+
+python -m pip install -U pip setuptools wheel
+python -m pip install -U Red-DiscordBot
