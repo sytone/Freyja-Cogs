@@ -1,0 +1,13 @@
+version: "3.2"
+services:
+  redbot:
+    container_name: redbot
+    image: phasecorex/red-discordbot
+    restart: unless-stopped
+    volumes:
+      - ./redbot:/data
+    environment:
+      - TOKEN=PUT_TOKEN_HERE
+      - PREFIX=.
+      - TZ=America/Los_Angeles
+      - PUID=1000
